@@ -1,0 +1,97 @@
+
+body {
+    background-image: url(assets/bgresume.jpg);
+}
+
+
+.header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 2vw;
+    margin-bottom: 3vw;
+}
+nav{
+	text-align: center;
+}
+nav ul{
+	display:inline-block;
+	list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    padding: 2vw;
+    color: white;
+    font-weight: bold;
+}
+nav li{
+	display: inline-block;
+}
+#Leftdescription{
+    background-color: white;
+    text-align: center;
+
+}
+
+#Leftdescription #Profile {
+    margin-top: 20px;
+    width: auto;
+    height: 20vh;
+}
+
+#Leftdescription li{
+    padding-top: 10px;
+}
+#Leftdescription h1{
+    margin-top: 20px;
+    font-size: 30px
+}
+
+#Leftdescription h2{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#Email{
+    font-size: 2.5vh;
+}
+
+/* end of left description */
+
+#Rightdescription{
+    text-align: center;
+    background-color: white;
+}
+
+
+
+
+/* all cols */
+
+
+.container{
+
+}
+
+
+
+.Category{
+    display: flex;
+    margin-top: 50px;
+    border-style: solid;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Category img{
+    margin-left: 5px;
+    width: auto;
+    height: 20px;
+    
+}
+
+.Category h5{
+    font-size: 18px;
+    margin: auto;
+
+}
